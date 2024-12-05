@@ -2,9 +2,8 @@
   "name": "html-css",
   "version": "1.0.0",
   "description": "A template for HTML and CSS",
-  "main": "index.html",
   "scripts": {
-    "start": "serve"
+    "start": "parcel ./index.html"
   },
   "keywords": [
     "html",
@@ -13,6 +12,10 @@
   "author": "Ives van Hoorne",
   "license": "MIT",
   "devDependencies": {
-    "serve": "11.2.0"
+    "open-cli": "^8.0.0",
+    "serve": "^14.2.4"
+  },
+  "dependencies": {
+    "parcel": "^2.0.0-canary.1757"
   }
 }
